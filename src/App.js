@@ -9,11 +9,11 @@ import ContactUs from './pages/ContactUs';
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
+      <Header/>
       <Home/>
-      <Footer/> */}
+      <Footer/>
       {/* <About/> */}
-      <ContactUs/>
+      {/* <ContactUs/> */}
     </div>
   );
 }
