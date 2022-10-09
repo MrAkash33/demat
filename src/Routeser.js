@@ -12,8 +12,8 @@ const Routeser = () => {
         <>
              <Routes>
                     <Route path="/" element={<App />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="contact" element={<ContactUs />} />
+                    <Route exact path="about" element={<About />} />
+                    <Route exact path="contact" element={<ContactUs />} />
                 </Routes>
         </>
     )
