@@ -1,4 +1,4 @@
-online this projct on https://demat.netlify.app/ 
+online this project on https://demat.netlify.app/ 
 
 # Getting Started with Create React App
 
