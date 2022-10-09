@@ -7,6 +7,7 @@ import Instagram from "../assets/instagram.svg"
 import Telegram from "../assets/telegram.svg"
 import Twitter from "../assets/twitter.svg"
 import Youtube from "../assets/youtub.svg"
+import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <>
@@ -34,8 +35,10 @@ const Header = () => {
                                     </div>
                                     <div className="menuItem">
                                         <ul>
-                                            <li>Home</li>
-                                            <li>About</li>
+                                            
+                                            <Link to="/"><li>Home</li></Link>
+                                            <Link to="/about"><li>About</li></Link>
+                                            <Link to="/contact"><li>Contact Us</li></Link>
                                             <li>Service</li>
                                             <li>Support</li>
                                             <li>Signup</li>
