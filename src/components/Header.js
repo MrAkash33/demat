@@ -41,8 +41,8 @@ const Header = () => {
                                             <Link to="/contact"><li>Contact Us</li></Link>
                                             <li>Service</li>
                                             <li>Support</li>
-                                            <li>Signup</li>
-                                            <img src={search} />
+                                            {/* <li>Signup</li>
+                                            <img src={search} /> */}
                                         </ul>
                                     </div>
                                 </div>

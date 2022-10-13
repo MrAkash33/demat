@@ -7,6 +7,8 @@ import {
   import App from "./App";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
+import Products from "./pages/Products";
+
 const Routeser = () => {
     return(
         <>
@@ -14,6 +16,8 @@ const Routeser = () => {
                     <Route path="/" element={<App />} />
                     <Route exact path="/about" element={<About />} />
                     <Route exact path="/contact" element={<ContactUs />} />
+                    <Route exact path="/products" element={<Products />} />
+                    <Route exact path="/support" element={<ContactUs />} />
                 </Routes>
         </>
     )
