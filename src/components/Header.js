@@ -34,7 +34,7 @@ const Header = () => {
                                     <div className="logo_w">
                                     <Link exact to="/"><img src={Logo} /></Link>
                                     </div>
-                                    <div className="menuItem">
+                                    <div className="menuItem ">
                                         <ul>
                                             
                                             {/* <NavLink exact to="/"><li>Home</li></NavLink> */}
