@@ -366,3 +366,13 @@ font-weight: 600;
   padding: 8px;
   margin: 10px;
 }
+.menuItem ul a {
+  color: #fff;
+  padding: 5px 11px;
+}
+.active {
+  color: #fff !important;
+  padding: 5px 11px;
+  border-radius: 9px;
+  border: 2px solid #504d9a;
+}

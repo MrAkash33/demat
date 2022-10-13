@@ -6,7 +6,7 @@ import Productconsole from "../assets/products-console.png"
 import ProductsCoin from "../assets/products-coin.png"
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-const Products = () =>{
+const Service = () =>{
     return(
         <>
         <Header/>
@@ -52,4 +52,4 @@ const Products = () =>{
     )
 }
 
-export default Products
+export default Service

@@ -7,7 +7,8 @@ import Instagram from "../assets/instagram.svg"
 import Telegram from "../assets/telegram.svg"
 import Twitter from "../assets/twitter.svg"
 import Youtube from "../assets/youtub.svg"
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
 const Header = () => {
     return (
         <>
@@ -31,18 +32,16 @@ const Header = () => {
                             <Row>
                                 <div className="headerWrapper">
                                     <div className="logo_w">
-                                        <img src={Logo} />
+                                    <Link exact to="/"><img src={Logo} /></Link>
                                     </div>
                                     <div className="menuItem">
                                         <ul>
                                             
-                                            <Link to="/"><li>Home</li></Link>
-                                            <Link to="/about"><li>About</li></Link>
-                                            <Link to="/contact"><li>Contact Us</li></Link>
-                                            <li>Service</li>
-                                            <li>Support</li>
-                                            {/* <li>Signup</li>
-                                            <img src={search} /> */}
+                                            {/* <NavLink exact to="/"><li>Home</li></NavLink> */}
+                                            <NavLink exact to="/about"><li>About</li></NavLink>
+                                            <NavLink exact to="/contact"><li>Contact Us</li></NavLink>
+                                            <NavLink exact to="/service"><li>Service</li></NavLink>
+                                            <NavLink exact to="/support"><li>Support</li></NavLink>
                                         </ul>
                                     </div>
                                 </div>
