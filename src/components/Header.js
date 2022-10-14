@@ -37,11 +37,11 @@ const Header = () => {
                                     <div className="menuItem ">
                                         <ul>
                                             
-                                            {/* <NavLink exact to="/"><li>Home</li></NavLink> */}
-                                            <NavLink exact to="/about"><li>About</li></NavLink>
-                                            <NavLink exact to="/contact"><li>Contact Us</li></NavLink>
-                                            <NavLink exact to="/service"><li>Service</li></NavLink>
-                                            <NavLink exact to="/support"><li>Support</li></NavLink>
+                                            <NavLink to="/"><li>Home</li></NavLink>
+                                            <NavLink to="/about"><li>About</li></NavLink>
+                                            <NavLink to="/contact"><li>Contact Us</li></NavLink>
+                                            <NavLink to="/service"><li>Service</li></NavLink>
+                                            <NavLink to="/support"><li>Support</li></NavLink>
                                         </ul>
                                     </div>
                                 </div>
